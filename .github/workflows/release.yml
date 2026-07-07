@@ -18,7 +18,7 @@ jobs:
         uses: itsmeow/curseforge-upload@v3
         with:
           token: "${{ secrets.HANDYNOTESVALTELEPORTS }}"
-          project_id: "0"
+          project_id: "1601281"
           game_endpoint: "wow"
           file_path: "HandyNotes_ValTeleports.zip"
           game_versions: "12.0.7"
