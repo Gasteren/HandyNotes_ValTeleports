@@ -1,0 +1,15 @@
+## Interface: 120007
+
+## Title: HandyNotes - Val Teleports
+## Version: 12.0.7
+## Notes: Adds teleport network node locations for Val.
+## Author: Frost-Lightbringer
+## X-Curse-Project-ID: 1601281
+
+## IconAtlas: FlightMaster_Argus-TaxiNode_Neutral
+
+## DefaultState: enabled
+## Dependencies: HandyNotes
+## SavedVariablesPerCharacter: HandyNotes_ValTeleportsCharDB
+
+Core.lua
