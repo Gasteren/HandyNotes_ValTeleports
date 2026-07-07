@@ -1,6 +1,6 @@
 local ADDON_NAME, ns = ...
 
--- HandyNotes must be loaded for this module to do anything.
+-- HandyNotes must be loaded for this module to do anything AT ALL
 local HandyNotes = _G.HandyNotes
 if not HandyNotes then
 	return
@@ -58,12 +58,16 @@ local nodes = {
 		desc = "Main hub teleport node.",
 	},
 	[C(42, 71)] = {
-		name = "Portal to the Forgotten Depths",
+		name = "The Forgotten Depths",
 		desc = "Teleport node leading to the Forgotten Depths.",
 	},
 	[C(33, 75)] = {
-		name = "Transit Platform Portal",
+		name = "Transit Platform",
 		desc = "Transit platform teleport node.",
+	},
+	[C(49, 97)] = {
+		name = "Void Acropolis Interior",
+		desc = "Portal to Void Acropolis Interior",
 	},
 }
 

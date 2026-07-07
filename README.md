@@ -7,6 +7,7 @@ Adds Manaforge Translocator Network node locations for Val.
   - Umbral Base Camp
   - Portal to the Forgotten Depths
   - Transit Platform Portal
+  - Void Acropolis Interior
 - Tooltip on hover shows the node name and description
 
 ## Requirements
