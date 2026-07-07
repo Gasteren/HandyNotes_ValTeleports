@@ -8,13 +8,8 @@ end
 
 -- Val's uiMapID (Patch 12.0.7 / Midnight Void Showdown zone)
 -- via: /dump C_Map.GetBestMapForUnit("player")
+
 local MAP_ID = 2599
-
--- Icon shown for each teleport pin on the world map
--- Uses the Blizzard "FlightMaster-Argus-Taxi_Frame_Yellow" atlas. HandyNotes' pin code only
--- ever calls SetTexture() (never SetAtlas()), so we resolve the atlas into its underlying
--- texture file + crop coordinates once here, and pass that table as the "icon" everywhere.
-
 local ATLAS_NAME = "FlightMaster_Argus-TaxiNode_Neutral"
 local ICON
 
@@ -75,7 +70,6 @@ local nodes = {
 -- HandyNotes plugin registration
 --------------------------------------------------------------------------------
 
--- Stateless iterator: called repeatedly by HandyNotes as (nodes, previousCoord).
 -- Must return: coord, uiMapID (nil = same map queried), iconpath, scale, alpha
 -- Icon scale multiplier. HandyNotes renders world map pins at a base size of
 -- 12px, multiplied by this value (and the user's global HandyNotes icon scale
