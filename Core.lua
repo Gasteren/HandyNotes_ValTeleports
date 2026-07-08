@@ -48,21 +48,21 @@ local function C(x, y)
 end
 
 local nodes = {
-	[C(62, 15)] = {
+	[C(60.75, 15.92)] = {
 		name = "Umbral Base Camp",
 		desc = "Main hub teleport node.",
 	},
-	[C(42, 71)] = {
-		name = "The Forgotten Depths",
-		desc = "Teleport node leading to the Forgotten Depths.",
+	[C(64.60, 69.32)] = {
+		name = "Steam Ravine",
+		desc = "Teleport node leading to the Steam Ravine.",
 	},
-	[C(33, 75)] = {
-		name = "Transit Platform",
-		desc = "Transit platform teleport node.",
+	[C(30.28, 67.86)] = {
+		name = "The Devouring Ingress",
+		desc = "Teleport node leading to The Devouring Ingress",
 	},
-	[C(49, 97)] = {
-		name = "Void Acropolis Interior",
-		desc = "Portal to Void Acropolis Interior",
+	[C(46.47, 71.53)] = {
+		name = "Void Acropolis",
+		desc = "Teleport node leading to Void Acropolis",
 	},
 }
 
