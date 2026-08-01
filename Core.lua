@@ -85,14 +85,16 @@ end
 
 local pluginHandler = {}
 
+local function noop()
+	return nil
+end
+
 function pluginHandler:GetNodes2(mapID, minimap)
-	-- Val already has Blizzard's own icon for this on the minimap;
-	-- only show our pins on the big world map.
 	if minimap then
-		return
+		return noop
 	end
 	if mapID ~= MAP_ID then
-		return
+		return noop
 	end
 	return iterator, nodes
 end
