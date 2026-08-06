@@ -14,4 +14,5 @@ Adds Manaforge Translocator Network node locations for Val.
 - [HandyNotes](https://www.curseforge.com/wow/addons/handynotes) (required dependency)
 
 ## Notes
+
 Requires the relevant questline to be completed in-game before the network nodes are usable.
