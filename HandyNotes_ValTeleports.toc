@@ -1,7 +1,7 @@
 ## Interface: 120007, 120100, 120105
 
 ## Title: HandyNotes - Val Teleports
-## Version: 12.1.0
+## Version: 12.1.5
 ## Notes: Adds teleport network node locations for Val.
 ## Author: Frost-Lightbringer
 ## X-Curse-Project-ID: 1601281
