@@ -1,4 +1,4 @@
-## Interface: 120007, 120100, 120105
+## Interface: 120007, 120100, 120105, 120107
 
 ## Title: HandyNotes - Val Teleports
 ## Version: 1.0.0
